@@ -64,29 +64,19 @@ Folder structure:
 ```bash
 tree -L 2
 .
-├── EC21EFAR06A01M4G_OCPU_BETA1112_01.001.01.001_SDK.tar.bz2
-├── HelloWorld
-│   ├── CMakeLists.txt
-│   ├── build
-│   ├── build.sh
-│   └── main.c
-├── LICENSE
-├── Quectel_Modules_ADB_Issue
-│   ├── 51-android.rules
-│   ├── LICENSE
-│   ├── Quectel_Modules_ADB_Issue
-│   ├── README.md
-│   ├── adb_usb.ini
-│   └── setup.sh
-├── README.md
-└── ql-ol-sdk
-    ├── Makefile
-    ├── ql-ol-crosstool
-    ├── ql-ol-extsdk
-    ├── ql-ol-kernel
-    ├── ql-ol-rootfs
-    ├── ql-ol-rootfs.tar.gz
-    └── ql-ol-usrdata
+|-- EC21EFAR06A01M4G_OCPU_01.001.01.001.zip
+|-- EC21EFAR06A01M4G_OCPU_01.001.01.001_SDK.tar.bz2
+|-- Quectel_EC2x_QuecOpen_Examples
+|   |-- HelloWorld
+|   |-- LICENSE
+|   `-- README.md
+`-- ql-ol-sdk
+    |-- Makefile
+    |-- ql-ol-crosstool
+    |-- ql-ol-extsdk
+    |-- ql-ol-kernel
+    |-- ql-ol-rootfs.tar.gz
+    `-- ql-ol-usrdata
 ```
 
 In order to prepare cross platform environment, please execute this before each build session.
